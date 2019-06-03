@@ -4,6 +4,7 @@ class Product:
         self.description = 'This is an awesome Smartphone'
         self.price = 700
         
+    # Instance Method for Display Product details
     def display(self):
         print(self.name)
         print(self.description)
